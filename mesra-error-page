@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aplikasi Tidak Dapat Dibuka</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background: linear-gradient(180deg, #f8f9fa, #ffeaf4);
+      color: #333;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      font-size: 1.6em;
+      color: #e91e63;
+      margin-bottom: 15px;
+    }
+    p {
+      line-height: 1.6;
+    }
+    .emoji {
+      font-size: 2.5em;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #e91e63;
+      color: white;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .btn:hover {
+      background: #d81b60;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="emoji">🚧📱</div>
+    <h1>Maaf, aplikasi tidak dapat dibuka 😕</h1>
+    <p>
+      Kadangkala pautan Google tidak dapat dimuat kerana terdapat <b>beberapa akaun Google aktif</b> dalam pelayar yang sama.
+    </p>
+    <p>✅ Cuba langkah berikut:</p>
+    <ul style="text-align:left; display:inline-block; margin-top:10px;">
+      <li>🔹 Tutup semua akaun Google yang lain</li>
+      <li>🔹 Atau buka semula pautan menggunakan <b>Mode Incognito / Private</b></li>
+      <li>🔹 Jika menggunakan telefon, buka semula link dalam pelayar <b>Chrome</b> dengan Incognito</li>
+    </ul>
+    <p>💡 Ini biasanya menyelesaikan masalah dan anda boleh terus log masuk atau semak temujanji anda!</p>
+    <a href="#" class="btn">🔄 Cuba Semula</a>
+  </div>
+  <p style="margin-top:30px; font-size:0.9em; color:#777;">HARAP – Health Appointment Reservation & Access Platform</p>
+</body>
+</html>
